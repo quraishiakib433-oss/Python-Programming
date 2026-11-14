@@ -1,0 +1,22 @@
+a = 40
+b = 35
+c = 45
+d = 50
+
+if (a > b and a > c):
+  if (a > d):
+    print("a is greatest")
+  else:
+    print("d is greatest")
+elif (b > a and b > c):
+  if (b > d):
+    print("b is greatest")
+  else:
+    print("d is greatest")
+elif (c > a and c > b):
+  if (c > d):
+    print("c is greatest")
+  else:
+    print("d is greatest")
+else:
+  print("d is greatest")
