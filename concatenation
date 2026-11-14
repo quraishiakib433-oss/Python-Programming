@@ -1,0 +1,3 @@
+str1 = "Mohd"
+str2 = " Akib"
+print( str1+str2 )
