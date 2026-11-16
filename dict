@@ -1,0 +1,7 @@
+dict = {
+  "name" : "shraddha",
+  "cgpa" : 9.6,
+  "marks" : [98,97,95],
+}
+dict["branch"] = "CSE-AIML"
+print(dict)
