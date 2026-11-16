@@ -1,0 +1,10 @@
+student = {
+  "name" : "Mohd Akib",
+  "Subject" : {
+    "Physics" : 97,
+    "Chemistry" : 98,
+    "Biology" : 99,
+  }
+}
+print(student["Subject"])
+print(student)
