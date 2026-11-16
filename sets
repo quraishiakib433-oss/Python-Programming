@@ -1,0 +1,2 @@
+student = {"a","b"}
+print(type(student))
