@@ -1,0 +1,13 @@
+marks = {}
+
+x = input("Enter physics marks :")
+marks.update({"physics " : x})
+
+x = input("Enter chemistry marks :")
+marks.update({"chemistry " : x})
+
+x = input("Enter math marks :")
+marks.update({"math " : x})
+
+print(marks)
+
