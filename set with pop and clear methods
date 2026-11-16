@@ -1,0 +1,9 @@
+collection = set() #empty set
+collection.add(("ABC"))
+collection.add(2)
+collection.add(3)
+
+collection.pop()
+print(collection)
+collection.clear()
+print(collection)
