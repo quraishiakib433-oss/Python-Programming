@@ -1,0 +1,13 @@
+student = {
+  "name" : "Mohd Akib",
+  "cgpa" : 8.5,
+  "Subject" : {
+    "Physics" : 97,
+    "Chemistry" : 98,
+    "Biology" : 99,
+  }
+}
+#nested dictionary
+print(student.get("name"))
+student.update({"city" : "ALLAHABAD"})
+print(student)
